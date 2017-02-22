@@ -78,16 +78,87 @@
 			</tbody>
 		</table>
 		<div>
-			<input type="button" value="Undo" id="undo">
+			<input type="button" value="Undo" class="undo">
 		</div>
 		<div>
-			Valor total: R$<span id="valor-total">0</span>
+			Valor total: R$<span class="valor-total">0</span>
 		</div>
 		<br/> Quantidade de itens distintos:
-		<span id="quantidade-de-itens"></span>
+		<span class="quantidade-de-itens"></span>
 
 
 	</div>
+	<div class="carrinho">
+		<h2>Carrinho entrega em Vitória</h2>
+		<table>
+			<thead>
+				<tr>
+					<td></td>
+					<td>Nome</td>
+					<td>Quantidade</td>
+					<td>Valor</td>
+					<td>Total</td>
+					<td>Ação</td>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr>
+					<td><img src="imagens/camiseta.jpg"></td>
+					<td>Camiseta G</td>
+					<td>1</td>
+					<td>25.00</td>
+					<td class="item-total">25.00</td>
+					<td><a class="remove-item" href="">(Remover)</a></td>
+				</tr>
+			</tbody>
+		</table>
+		<div>
+			<input type="button" value="Undo" class="undo">
+		</div>
+		<div>
+			Valor total: R$<span class="valor-total">0</span>
+		</div>
+		<br/> Quantidade de itens distintos:
+		<span class="quantidade-de-itens"></span>
+	</div>
+
+	<div class="carrinho">
+        <h2>Carrinho entrega em Rio de Janeiro</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>Nome</td>
+                    <td>Quantidade</td>
+                    <td>Valor</td>
+                    <td>Total</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="imagens/mouse.jpg"></td>
+                    <td>Mouse wireless</td>
+                    <td>1</td>
+                    <td>199.00</td>
+                    <td class="item-total">199.00</td>
+                    <td><a class="remove-item" href="">(remover)</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>
+                <input type="button" value="Undo" class="undo">
+        </div>
+
+        <div>
+            Valor total: <span class="valor-total">0</span>
+            <br/>
+            Quantidade de itens: <span class="quantidade-de-itens">0</span>
+        </div>
+
+    </div>
 	<script src="jquery-2.0.3.min.js"></script>
 	<script src="script.js"></script>
 
